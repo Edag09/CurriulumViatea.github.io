@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #B9E9FC;
+}
+
+.page{
+    height: 1000px;
+    width: 50%;
+    background: rgb(255, 255, 255);
+    left: 25%;
+    margin-top: 4%;
+    position: absolute;
+}
+
+.name{
+    height: 231px;
+    width: 100%;
+    margin-top: 6%;
+    background: #bab9b9;
+    position: absolute;
+}
+
+h1{
+    position: inherit;
+    margin-left: 42.5%;
+    margin-top: 4%;
+    font-size: 275%;
+    font-family: 'Secular One', sans-serif;
+}
+
+h2{
+    position: inherit;
+    margin-left: 42.5%;
+    margin-top: 19%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about{
+    height: 433%;
+    width: 32%;
+    margin-left: 35px;
+    margin-top: -50px;
+    background: cadetblue;
+    position: absolute;
+}
+
+.circle{
+    width: 255px;
+    height: 255px;
+    background-color: white;
+    margin-top: 15%;
+    margin-left: 1.3%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.profile{
+    width: 250px;
+    height: 250px;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-image: url(Perfil.png);
+    background-size: cover;
+    border-radius: 50%;
+}
