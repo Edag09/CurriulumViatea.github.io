@@ -178,18 +178,3 @@ body{
     list-style-type: none;
 }
 
-#java{
-    list-style-image: url(Imagenes/java.png);
-}
-
-#git{
-    list-style-image: url(Imagenes/git.png);
-}
-
-#python{
-    list-style-image: url(Imagenes/piton.png);
-}
-
-#docker{
-    list-style-image: url(Imagenes/docker_original_wordmark_logo_icon_146557.ico);
-}
