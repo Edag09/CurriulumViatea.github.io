@@ -209,15 +209,36 @@ body{
 }
 
 #education{
-    border: 1px solid black;
     margin-top: 5px;
     width: 100%;
-    height: 15%;
+    height: 18%;
 }
 
 #arrow{
     background-image: url(../Imagenes/flecha-correcta.png);
-    border: 1px solid black;
     height: 15%;
     width: 5%;
+    margin-left: 1%;
 }
+
+h1{
+    font-size: 150%;
+    font-family: 'ABeeZee', sans-serif;
+    margin-left: 7%;
+    margin-top: -5.5%;
+}
+
+h2{
+    font-size: 100%;
+    font-family: 'ABeeZee', sans-serif;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+p{
+    font-size: 100%;
+    font-family: 'ABeeZee', sans-serif;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
