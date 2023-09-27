@@ -12,7 +12,7 @@ body{
 }
 
 .page{
-    height: 1300px;
+    height: 1340px;
     width: 50%;
     background: rgb(255, 255, 255);
     left: 25%;
@@ -44,7 +44,7 @@ body{
 }
 
 .about{
-    height: 520%;
+    height: 536.2%;
     width: 35%;
     margin-left: 30px;
     margin-top: -69px;
@@ -67,7 +67,7 @@ body{
     height: 255px;
     margin-top: 1%;
     margin-left: 1%;
-    background-image: url(Perfil.png);
+    background-image: url(../Imagenes/Perfil.png);
     background-size: cover;
     border-radius: 50%;
 }
@@ -171,10 +171,39 @@ body{
 
 #tech{
     position: inherit;
-    margin-top: 310%;
-    margin-left: 15%;
+    margin-top: 305%;
+    margin-left: 5%;
     font-size: 100%;
     font-family: 'ABeeZee', sans-serif;
     list-style-type: none;
 }
 
+.percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #000;
+    display: block;
+} 
+
+.percent div{
+    position: relative;
+    height: 100%;
+    background: #B9E9FC;
+}
+
+.percent p{
+    font-size: 100%;
+    margin-left: 115%;
+    font-family: 'ABeeZee', sans-serif;
+    margin-top: -10%;
+}
+
+.info_extends{
+    width: 58%;
+    height: 76.5%;
+    border: 1px solid black;
+    position: inherit;
+    margin-top: 38%;
+    margin-left: 40%;
+}
