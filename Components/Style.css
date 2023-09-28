@@ -243,40 +243,41 @@ p{
     margin-top: 1%;
 }
 
-@media (max-width: 768px) {
-  .page {
-    width: 90%; /* Cambia el ancho de la página para ocupar el 90% del ancho de la pantalla */
-    left: 5%; /* Centra la página horizontalmente */
-    margin-top: 10%; /* Añade espacio en la parte superior para evitar que se superpongan los elementos */
+@media (max-width: 1000px) {
+    .page {
+      width: 90%;
+      left: 5%;
+      margin-top: 10%;
+    }
+  
+    .name_me, .post {
+      margin-left: 5%;
+    }
+  
+    .about {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .circle, .profile {
+      margin: 10% auto;
+    }
+  
+    .about-me, .contact, .info, .img-phone, .me, .email, .correo, .location, .dir, .link, .lnk, .git, .hub, #tools, #tech {
+      margin-left: 5%;
+    }
+  
+    .info_extends {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    #education {
+      height: auto;
+    }
+  
+    #arrow {
+      margin-left: 2%;
+    }
   }
-
-  .name_me, .post {
-    margin-left: 5%; /* Centra el texto en la página */
-  }
-
-  .about {
-    width: 90%; /* Ajusta el ancho de la sección 'about' */
-    margin: 20px auto; /* Centra la sección 'about' horizontalmente */
-  }
-
-  .circle, .profile {
-    margin: 10% auto; /* Centra el círculo de perfil horizontalmente */
-  }
-
-  .about-me, .contact, .info, .img-phone, .me, .email, .correo, .location, .dir, .link, .lnk, .git, .hub, #tools, #tech {
-    margin-left: 5%; /* Centra el texto en la sección 'about' horizontalmente */
-  }
-
-  .info_extends {
-    width: 90%; /* Ajusta el ancho de la sección 'info_extends' */
-    margin: 20px auto; /* Centra 'info_extends' horizontalmente */
-  }
-
-  #education {
-    height: auto; /* Ajusta la altura de la sección 'education' automáticamente */
-  }
-
-  #arrow {
-    margin-left: 2%; /* Ajusta el margen izquierdo de la flecha */
-  }
-}
+  
