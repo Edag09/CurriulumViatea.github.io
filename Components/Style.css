@@ -203,7 +203,6 @@ body{
 .info_extends{
     width: 58%;
     height: 76%;
-    border: 1px solid black;
     position: inherit;
     margin-top: 38%;
     margin-left: 40%;
@@ -280,4 +279,3 @@ p{
       margin-left: 2%;
     }
   }
-  
